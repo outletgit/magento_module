@@ -1,0 +1,23 @@
+{
+    "name": "pc/module-postcode",
+    "description": "Magento 2 Postcode Checkout module",
+    "authors": [
+        {
+            "email": "support@postcode-checkout.nl",
+            "name": "Postcode Checkout"
+        }
+    ],
+    "license": [
+        "OSL-3.0"
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pc\\Postcode\\": ""
+        }
+    }
+}

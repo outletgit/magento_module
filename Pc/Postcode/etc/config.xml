@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+	<default>
+		<postcodecheckout>
+			<general>
+				<enabled>0</enabled>
+			</general>
+			<advanced_config>
+				<always_show_country>1</always_show_country>
+				<show_postbus>1</show_postbus>
+			</advanced_config>
+		</postcodecheckout>
+	</default>
+</config>
